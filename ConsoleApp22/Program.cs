@@ -77,6 +77,14 @@
             //foreach (string s in ss2) Console.WriteLine(s);
 
             #endregion
+            #region task3.3
+            //Predicate<Product> p1 = Product.alert;
+            //List<Product>result5=Product.FilterProducts(catalog, p1);
+            //for (int i = 0; i < result5.Count; i++)
+            //{
+            //    Console.WriteLine($"[LOW STOCK] {result5[i].Name}:only {result5[i].Stock} left!");
+            //}
+            #endregion
 
         }
     }
