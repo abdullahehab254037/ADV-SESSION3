@@ -21,6 +21,41 @@
                 new Product { Id = 10, Name = "Jacket", Category = "Clothing", Price = 120, Stock = 15 }
             };
             #endregion
+            #region task01
+            //List<Product> result1 = new List<Product>();
+            //List<Product> result2 = new List<Product>();
+            //List<Product> result3 = new List<Product>();
+            //List<Product> result4 = new List<Product>();
+            //filterlist f1 = Product.Electronics;
+            //result1 = Product.filteroption(catalog, f1);
+            //f1 = Product.prices;
+            //result2 = Product.filteroption(catalog, f1);
+            //f1 = Product.stock;
+            //result3 = Product.filteroption(catalog, f1);
+            //f1 = Product.clothing;
+            //result4 = Product.filteroption(catalog, f1);
+            //Console.WriteLine("---------electronics-----------");
+            //for (int i = 0; i < result1.Count; i++)
+            //{
+            //    Console.WriteLine($"category:{result1[i].Category}");
+            //}
+            //Console.WriteLine("---------prices-----------");
+            //for (int i = 0; i < result2.Count; i++)
+            //{
+            //    Console.WriteLine($"price:{result2[i].Price}");
+            //}
+            //Console.WriteLine("----------stock------------");
+            //for (int i = 0; i < result3.Count; i++)
+            //{
+            //    Console.WriteLine($"stock:{result3[i].Stock}");
+            //}
+            //Console.WriteLine("----------clothing------------");
+            //for (int i = 0; i < result4.Count; i++)
+            //{
+            //    Console.WriteLine($"clothing:{result4[i].Category},,,,,price:{result4[i].Price}");
+            //}
+            #endregion
+
         }
     }
     public class Product
