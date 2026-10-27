@@ -85,6 +85,41 @@
             //    Console.WriteLine($"[LOW STOCK] {result5[i].Name}:only {result5[i].Stock} left!");
             //}
             #endregion
+            #region collections(list)
+            /*
+             Create a Collection with these grades: 85, 92, 78, 95, 88, 70, 100, 65
+             Print the collection, Count, first and last grade
+             Sort the grades ascending, then print
+             Get the first grade above 90
+             Get all grades below 75 (failing grades)
+             Remove all failing grades (below 75)
+             Check if any grade equals 100
+             Create a List<string> where each grade becomes "Grade: X"
+             int[] arr = { 85, 92, 78, 95, 88, 70, 100, 65 };
+            List<int> grades = new List<int>(arr);
+           //foreach (int i in grades) Console.WriteLine(i);
+           //Console.WriteLine(grades.Count);
+           //Console.WriteLine(grades[0]);
+           //Console.WriteLine(grades[grades.Count-1]);
+           //Console.WriteLine("////////");
+            grades.Sort();
+           //foreach (int i in grades) Console.WriteLine(i);
+           // Console.WriteLine(grades.Find(g => g > 90));
+          List<int> falling=grades.FindAll(g => g < 75);
+          foreach (int i in falling) grades.Remove(i);
+          //bool Perfect = grades.Contains(100);
+          List<string> gradeLabels = new List<string>();
+            foreach (int g in grades)
+            {
+                gradeLabels.Add($"Grade: {g}");
+            }
+            foreach (string label in gradeLabels)
+            {
+                Console.WriteLine(label);
+            }
+
+             */
+            #endregion
 
         }
     }
