@@ -55,6 +55,16 @@
             //    Console.WriteLine($"clothing:{result4[i].Category},,,,,price:{result4[i].Price}");
             //}
             #endregion
+            #region task3.1
+            //Action<Product> PrintAction;
+            //Console.WriteLine("--------short---------");
+            //PrintAction = Product.printshort;
+            //
+            //Product.printreport(catalog, PrintAction);
+            //Console.WriteLine("--------details---------");
+            //PrintAction = Product.printDetailed;
+            //Product.printreport(catalog, PrintAction);
+            #endregion
 
         }
     }
