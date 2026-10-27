@@ -65,6 +65,18 @@
             //PrintAction = Product.printDetailed;
             //Product.printreport(catalog, PrintAction);
             #endregion
+            #region task3.2
+            //List<string> ss = new();
+            //List<string> ss2 = new();
+            //Func<Product, string> s3=Product.Scenario3;
+            //ss = Product.TransformProducts(catalog, s3);
+            //foreach(string  s in ss) Console.WriteLine(s);
+            //Console.WriteLine("/////////////");
+            //Func<Product, string> s4 = Product.Scenario4;
+            //ss2 = Product.TransformProducts(catalog, s4);
+            //foreach (string s in ss2) Console.WriteLine(s);
+
+            #endregion
 
         }
     }
